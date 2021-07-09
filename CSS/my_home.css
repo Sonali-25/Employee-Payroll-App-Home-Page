@@ -71,18 +71,19 @@ html body{
 }
 
 .add-button{
-    font: normal normal normal 22px/29px Roboto;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-    background: #82a70c 0% 0% no-repeat padding-box;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 18px;
-    outline: none;
-    cursor: pointer;
-    text-decoration: none;
-    display: flex;
+        font: normal normal normal 22px/29px Roboto;
+        letter-spacing: 0px;
+        color: #ffffff;
+        opacity: 1;
+        background: #82a70c 0% 0% no-repeat padding-box;
+        border: none;
+        border-radius: 8px;
+        padding: 9px 5px;
+        outline: none;
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        margin: -6px -3px
 }
 .table-main{
     width: 80%;
@@ -96,15 +97,15 @@ html body{
     min-width: 800px; 
 }
 td , th{
-    text-align: left;
+    text-align: center;
     padding: 5px 4px;
 }
 th{
     background: #42515F 0% 0% no-repeat padding-box;
     border-radius: 0px 0px 0px 0px;
-    text-align: left;
+    text-align: revert;
     font: normal normal medium 18px/24px Roboto;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #FFFFFF;
     text-transform: uppercase;
     opacity: 1;
@@ -126,7 +127,7 @@ td:first-child{
     align-items: center;
 }
 td img:first-child{
-    margin-right: 10px;
+    margin-right: -20px;
 }
 td img{
     cursor: pointer;
@@ -141,4 +142,8 @@ td img{
     display: inline-block;
     font-weight: 300;
     margin-bottom: 8px;
+}
+img {
+    padding-left: 25px;
+    padding-right: 25px;
 }
